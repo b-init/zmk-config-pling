@@ -34,7 +34,7 @@
 &lt 2 CAPS  &kp A   &kp S   &kp D      &kp F     &kp G     &kp H    &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHIFT  &kp Z   &kp X   &kp C      &kp V     &kp B     &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
                             &kp LCTRL  &kp LGUI  &kp LALT  &kp RET  &kp SPACE  &mo 4
-            >;F
+            >;
         };
 
         special {
