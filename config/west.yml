@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: pling-zmk-module
+      url: https://github.com/b-init/pling-zmk-module
+      revision: main
+      path: modules/pling-zmk-module
   self:
     path: config
