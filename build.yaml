@@ -1,7 +1,7 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: pling_left
+    shield: pling_left rgbled_adapter
   - board: seeeduino_xiao_ble
-    shield: pling_right
+    shield: pling_right rgbled_adapter
   - board: seeeduino_xiao_ble
     shield: settings_reset

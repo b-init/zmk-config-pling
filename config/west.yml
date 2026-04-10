@@ -14,5 +14,8 @@ manifest:
       url: https://github.com/b-init/pling-zmk-module
       revision: main
       path: modules/pling-zmk-module
+    - name: zmk-rgbled-widget
+      url: https://github.com/caksoylar/zmk-rgbled-widget
+      revision: v0.3
   self:
     path: config
