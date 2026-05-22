@@ -1,0 +1,1 @@
+zmk firmware for [the pling!](https://github.com/b-init/pling) split keyboard. Doesn't support zmk studio (yet) but does work very well with [keymap editor](https://nickcoutsos.github.io/keymap-editor/).
