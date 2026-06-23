@@ -6,7 +6,7 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 800  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 10    // default: 10
 
-&lt { tapping-term-ms = <100>; };
+&lt { tapping-term-ms = <75>; };
 
 / {
     combos {
@@ -31,6 +31,11 @@
         tog_gaming {
             bindings = <&tog 2>;
             key-positions = <9 10 11>;
+        };
+
+        space_alt {
+            bindings = <&kp SPACE>;
+            key-positions = <50 49>;
         };
     };
 
@@ -114,11 +119,11 @@
 
         numpad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp FSLH  &kp STAR  &kp MINUS  &kp INS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp N7  &kp N8    &kp N9    &kp PLUS   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5    &kp N6    &kp RET    &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2    &kp N3    &kp DOT    &trans   &trans
-                        &trans  &trans  &trans  &trans  &kp N0    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMLOCK  &kp KP_DIVIDE    &kp KP_ASTERISK  &kp KP_MINUS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_N7       &kp KP_N8        &kp KP_N9        &kp KP_PLUS   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_N4       &kp KP_NUMBER_5  &kp KP_N6        &kp KP_ENTER  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_N1       &kp KP_N2        &kp KP_N3        &kp KP_DOT    &trans
+                        &trans  &trans  &trans  &trans  &kp KP_N0       &trans
             >;
         };
     };
